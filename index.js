@@ -2,7 +2,7 @@ const express =require('express');
 const app=express();
 const cors =require('cors');
 const port = process.env.PORT || 5000;
-const { MongoClient, ServerApiVersion } = require('mongodb');
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 app.use(cors());
 app.use(express.json());
 app.get('/', (req, res) => {
@@ -17,6 +17,26 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 
 async function run(){
     try{
+        const hotelcollection =client.db('gulshanTravels').collection('hotels');
+        const placeCollection = client.db('gulshanTravels').collection('places');
+        app.get('/hotels',async(req,res)=>{
+            const query ={};
+            const cursor = hotelcollection.find(query);
+            const hotels = await cursor.toArray();
+            res.send(hotels)
+        })
+        app.get('/hotels/:id',async(req,res)=>{
+            console.log(req.params);
+            const id =req.params.id;
+            console.log(typeof id,id);
+            const query= {_id: ObjectId(id)};
+            const hotel =await hotelcollection.findOne(query);
+            console.log(hotel);
+            res.send(hotel)
+        })
+
+
+
 
     }
 

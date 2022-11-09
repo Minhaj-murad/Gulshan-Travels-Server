@@ -1,133 +1,133 @@
-{
-    "places": [{
-         "id": "1",
-         "city": "Vancouver BC",
-         "rating": "4.9",
-         "price": "2525",
-         "img":"https://i.ibb.co/LtkqyJ0/550588.jpg" 
-       },
-       {
-         "id": "2",
-         "city": "Montreal, QC",
-         "rating": "5.0",
-         "price": "2237",
-         "img": "https://i.ibb.co/DVJcFLJ/building-canada-montreal-quebec-wallpaper-preview.jpg" 
-       },
-       {
-         "id": "3",
-         "city": "Saskatchewan",
-         "price": "2330",
-         "img":"https://i.ibb.co/jL15Ghd/sunset-bridge-saskatoon-saskatchewan.jpg"
-       },
-       {
-         "id": "4",
-         "city": "Québec City, QC",
-         "rating": "4.8",
-         "price": "2230",
-         "img":"https://i.ibb.co/g7QZGHR/image.jpg" 
-       },
-       {
-         "id": "5",
-         "city": " British Coloumbia",
-         "rating": "4.85",
-         "price": "2410",
-         "img":"https://i.ibb.co/424C1YB/image-processing20200130-4-1f9q6xu.jpg" 
-       },
-       {
-         "id": "6",
-         "city": " Toronto",
-         "rating": "4.9",
-         "price": "3300",
-         "img":"https://i.ibb.co/d2RyxLT/167-3-2254-tif-medium-7465353d-756d-4e13-b610-d938dde974a5.jpg" 
-       }]
-     ,
+// {
+//     "places": [{
+         
+//          "city": "Vancouver BC",
+//          "rating": "4.9",
+//          "price": "2525",
+//          "img":"https://i.ibb.co/LtkqyJ0/550588.jpg" 
+//        },
+//        {
+         
+//          "city": "Montreal, QC",
+//          "rating": "5.0",
+//          "price": "2237",
+//          "img": "https://i.ibb.co/DVJcFLJ/building-canada-montreal-quebec-wallpaper-preview.jpg" 
+//        },
+//        {
+         
+//          "city": "Saskatchewan",
+//          "price": "2330",
+//          "img":"https://i.ibb.co/jL15Ghd/sunset-bridge-saskatoon-saskatchewan.jpg"
+//        },
+//        {
+         
+//          "city": "Québec City, QC",
+//          "rating": "4.8",
+//          "price": "2230",
+//          "img":"https://i.ibb.co/g7QZGHR/image.jpg" 
+//        },
+//        {
+         
+//          "city": " British Coloumbia",
+//          "rating": "4.85",
+//          "price": "2410",
+//          "img":"https://i.ibb.co/424C1YB/image-processing20200130-4-1f9q6xu.jpg" 
+//        },
+//        {
+         
+//          "city": " Toronto",
+//          "rating": "4.9",
+//          "price": "3300",
+//          "img":"https://i.ibb.co/d2RyxLT/167-3-2254-tif-medium-7465353d-756d-4e13-b610-d938dde974a5.jpg" 
+//        }]
+//      ,
  
-     "rooms":
-     [ 
-         {
-           "id": "1",
-           "hotelName": "Rosewood Hotel Georgia",
-           "place": "Vancouver BC",
-           "rating": "5.0",
-           "description": " First opened in 1927, Hotel Georgia quickly became known as Vancouver's most fashionable retreat. Following an extensive renovation in 2011, it reopened as Rosewood Hotel Georgia. The hotel now features 156 elegant rooms and suites that flawlessly combine legacy, grandeur and luxury with charming ambiance in a landmark location.Entirely renovated to restore old world craftsmanship, integrate the latest technology and introduce luxurious furnishings, Rosewood Hotel Georgia epitomizes the legendary grandeur of its roaring '20s debut and the golden age of hotel travel. ",
-           "price": "525",
-           "img":"https://i.ibb.co/gvRFvPq/deluxe-king-guestroom-v16085405-1440.jpg" 
-         },
-         {
-           "id": "2",
-           "hotelName": "Ritz-Carlton Montréal",
-           "place": "Montreal, QC",
-           "rating": "5.0",
-           "description": "She might be over a 100 years old, but the Grande Dame of Sherbrooke Street hasnt lost any of the panache that made her the favorite haunt of the likes of Winston Churchill and Richard Nixon whenever they were in town. She was the first hotel in North America to bear the Ritz-Carlton name, but thats not all there is to the resume of the Ritz-Carlton Montreal. She is one of the most storied hotels in the world with a guest list that reads like the whos who of the worlds elite- think Winston Churchill, Richard Nixon, the Rolling Stones and Elizabeth Taylor who famously tied the knot with actor Richard Burton here in 1964. Yes, the Ritz-Carlton Montreal has history, and she wears it with pride, courtesy of her stately facade and classic decor of grand marble fireplaces, vaulted ceilings and Old World chandeliers, but she is also at the top of her game following a $200-million makeover completed in 2012. The renovation saw tech upgrades like heated floors and bedside control panels in every room, but our favorite addition remains the star of the hotels in-house dining options- Maison Boulud. This restaurant, overseen by celebrity chef Daniel Boulud, is Montreals swankiest for afternoon lunching and throwing back martinis, right on the citys Golden Square Mile with its Beaux Arts museums and high-end shopping. ",
-           "price": "237",
-           "img":"https://i.ibb.co/bWj3MTP/Ritz-Carlton-Montreal-16.jpg" 
-         },
-         {
-           "id": "3",
-           "hotelName": "Fairmont Pacific Rim",
-           "place": "Vancouver, BC",
-           "rating": "4.9",
-           "description": "Located amidst the bustling downtown, while offering spectacular mountain and harbour views, our urban-resort features touches of art, music and fashion woven throughout, award-winning restaurants and bars, rooftop pool, and Willow Stream Spa; located steps from the citys countless activities, dining and shopping.While visiting, we hope you will have time to experience all that Vancouver has to offer. Discover what's happening at Fairmont Pacific Rim on fairmontpacificrim.com, our lifestyle website driven by art, music, fashion, wellness, culinary and cocktails, making up the DNA of the hotel and the core of Vancouvers vibrant social scene.",
-           "price": "233",
-           "img": "https://i.ibb.co/4YxY4Bb/signature-ofuro-room.jpg" 
-         },
-         {
-           "id": "4",
-           "hotelName": "Auberge Saint-Antoine",
-           "place": "Québec City, QC",
-           "rating": "4.8",
-           "description": "More than a boutique hotel, Auberge Saint-Antoine is a window on Québec Citys past. Hundreds of artifacts from both the French and English regimes were discovered during an extensive archaeological dig on the property. In this unique contemporary space, the past has been audaciously re-interpreted for you to savour.The hotel is ideally located in the centre of the city with some stunning views. Room was excellent and the staff provided a first class friendly service. Breakfasts are top quality, served in the atmospheric dining room. Unfortunately we had to rely heavily on the concierge for evenings. Despite calling ahead to confirm and in residence, the restaurant was full on the first evening, second evening closed for a private function and closed on Mondays! Fortunately there is a huge variety of choice around the city. Top tip perhaps confirm well ahead for an evening in Chez Muffy. ",
-           "price": "230",
-           "img":"https://i.ibb.co/YhbN260/Suite.jpg" 
-         },
-         {
-           "id": "5",
-           "hotelName": "Fogo Island Inn",
-           "place": "Joe Batt's Arm",
-           "rating": "4.85",
-           "description": "Fogo Island Inn sits on an island, off an island, at one of the four corners of the Earth. Every one of our 29 one-of-a-kind guest rooms and suites has dramatic floor-to-ceiling windows that open onto the wildest and most powerful ocean on the planet. A stimulating relief from the numbing uniformity of modern times, the award-winning Inn is built on the principles of sustainability and respect for nature and culture. The Inn is a community asset, and 100% of operating surpluses are reinvested into the community to help secure a sustainable and resilient future for Fogo Island, Newfoundland. ",
-           "price": "241",
-           "img": "https://i.ibb.co/2S51HYw/Interior-ENL-1536x693.jpg" 
-         },
-         {
-           "id": "6",
-           "hotelName": "The Ritz-Carlton",
-           "place": " Toronto",
-           "rating": "4.9",
-           "description": "100 years of history.  With an unshakeable credo and corporate philosophy of un-wavering commitment to service, both in our hotels and in our communities, The Ritz-Carlton has been recognized with numerous awards for being the gold standard of hospitality.In the United States, The Ritz-Carlton Investing Company was established by Albert Keller who bought and franchised the name. In the early 1900s, several hotels were known as The Ritz-Carlton, in places such as Boston, Philadelphia, Pittsburgh, Atlantic City and Boca Raton. However, by 1940 none of the hotels were operating except The Ritz-Carlton, Boston. The hotel embodies the finest luxury experience, Yankee ingenuity and Boston social sensibilities. The standards of service, dining and facilities of this Boston landmark served as a benchmark for all future Ritz-Carlton hotels and resorts worldwide. ",
-           "price": "300",
-           "img": "https://i.ibb.co/KF6F9M5/yyzrz-bedroom-50668493.jpg" 
-         },
-         {
-           "id": "7",
-           "hotelName": "Manoir Hovey",
-           "place": "North Hatley, QC",
-           "rating": "4.8",
-           "description": "Many of the first settlers around North Hatley were United Empire Loyalists, mostly farmers, who left New England in the years following the American Declaration of Independence in 1776. Several fine farmhouses of this period still exist in the village. Manoir Hovey was named after one of the most noteworthy of these settlers, Captain Ebenezer Hovey, who was granted a large tract of land by the Crown in 1785, directly across the lake from the inn. In large measure, however, the village owns most of its great houses and particular architecture to the first summer people - aristocrats, captains of industry and large landowners, mostly Americans from south of the Mason-Dixon Line. For some time after the American Civil War (1861-1865) many wealthy southerners renounced New England (Yankeeland) as a summer holiday destination and continued further north into Canada, some by private railway car. Rumour has it that many drew their blinds in passing through New England. ",
-           "price": "290",
-           "img": "https://i.ibb.co/hY0gNH6/treetops.jpg"
-         },
-         {
-           "id": "8",
-           "hotelName": "Magnolia Hotel & Spa",
-           "place": "Victoria, BC",
-           "rating": "4.75",
-           "description": "Emanating timeless elegance, The Magnolia Hotel & Spa offers an unrivalled luxury boutique hotel experience in the heart of the city, only steps from Victorias Inner Harbour. Welcome to a world of personalized service, thoughtfully appointed rooms, fine dining, and tranquil spa experiences.Fall is the perfect time to explore the food scene in Victoria!October is BC Craft Beer Month, use our curated Craft Brewery Trail to explore the best local breweries. Or discover the Flavour Trails through Saanich or Cowichan Valley with our themed maps to guide you to farms, wineries, cideries and more! Then return to The Courtney Room to sample Pacific Northwest cuisine showcasing the best local ingredients. ",
-           "price": "310",
-           "img": "https://i.ibb.co/k8Vvvm6/Superior-Room-King-Bed.jpg" 
-         },
-         {
-           "id": "9",
-           "hotelName": "Fairmont Chateau Whistler",
-           "place": "Whistler, BC",
-           "rating": "4.9",
-           "description": " Naturally spectacular, Fairmont Chateau Whistler resort delivers an ideal setting for families, meetings and weddings alike. Combining classic elegance and a modern alpine setting, this award-winning Whistler hotel showcases exceptional dining and full resort amenities including a par 72, 18-hole Audubon-certified championship golf course.For up-to-date information on hours of operation, current Provincial Health Orders, available amenities and services, and more, please review our Travel FAQ page.Celebrate the beauty of the surroundings and connect with your wild side this summer in Whistler. Discover the perfect balance of relaxation and adventure, and create memories of a lifetime when you plan a unique mountain getaway at Whistler's landmark ski-in ski-out hotel and BC golf resort, Fairmont Chateau Whistler.    ",
-           "price": "320",
-           "img": "https://i.ibb.co/2skwrmT/dd.jpg" 
-         }
-       ]
+//      "rooms":
+//      [ 
+//          {
+           
+//            "hotelName": "Rosewood Hotel Georgia",
+//            "place": "Vancouver BC",
+//            "rating": "5.0",
+//            "description": " First opened in 1927, Hotel Georgia quickly became known as Vancouver's most fashionable retreat. Following an extensive renovation in 2011, it reopened as Rosewood Hotel Georgia. The hotel now features 156 elegant rooms and suites that flawlessly combine legacy, grandeur and luxury with charming ambiance in a landmark location.Entirely renovated to restore old world craftsmanship, integrate the latest technology and introduce luxurious furnishings, Rosewood Hotel Georgia epitomizes the legendary grandeur of its roaring '20s debut and the golden age of hotel travel. ",
+//            "price": "525",
+//            "img":"https://i.ibb.co/gvRFvPq/deluxe-king-guestroom-v16085405-1440.jpg" 
+//          },
+//          {
+           
+//            "hotelName": "Ritz-Carlton Montréal",
+//            "place": "Montreal, QC",
+//            "rating": "5.0",
+//            "description": "She might be over a 100 years old, but the Grande Dame of Sherbrooke Street hasnt lost any of the panache that made her the favorite haunt of the likes of Winston Churchill and Richard Nixon whenever they were in town. She was the first hotel in North America to bear the Ritz-Carlton name, but thats not all there is to the resume of the Ritz-Carlton Montreal. She is one of the most storied hotels in the world with a guest list that reads like the whos who of the worlds elite- think Winston Churchill, Richard Nixon, the Rolling Stones and Elizabeth Taylor who famously tied the knot with actor Richard Burton here in 1964. Yes, the Ritz-Carlton Montreal has history, and she wears it with pride, courtesy of her stately facade and classic decor of grand marble fireplaces, vaulted ceilings and Old World chandeliers, but she is also at the top of her game following a $200-million makeover completed in 2012. The renovation saw tech upgrades like heated floors and bedside control panels in every room, but our favorite addition remains the star of the hotels in-house dining options- Maison Boulud. This restaurant, overseen by celebrity chef Daniel Boulud, is Montreals swankiest for afternoon lunching and throwing back martinis, right on the citys Golden Square Mile with its Beaux Arts museums and high-end shopping. ",
+//            "price": "237",
+//            "img":"https://i.ibb.co/bWj3MTP/Ritz-Carlton-Montreal-16.jpg" 
+//          },
+//          {
+           
+//            "hotelName": "Fairmont Pacific Rim",
+//            "place": "Vancouver, BC",
+//            "rating": "4.9",
+//            "description": "Located amidst the bustling downtown, while offering spectacular mountain and harbour views, our urban-resort features touches of art, music and fashion woven throughout, award-winning restaurants and bars, rooftop pool, and Willow Stream Spa; located steps from the citys countless activities, dining and shopping.While visiting, we hope you will have time to experience all that Vancouver has to offer. Discover what's happening at Fairmont Pacific Rim on fairmontpacificrim.com, our lifestyle website driven by art, music, fashion, wellness, culinary and cocktails, making up the DNA of the hotel and the core of Vancouvers vibrant social scene.",
+//            "price": "233",
+//            "img": "https://i.ibb.co/4YxY4Bb/signature-ofuro-room.jpg" 
+//          },
+//          {
+           
+//            "hotelName": "Auberge Saint-Antoine",
+//            "place": "Québec City, QC",
+//            "rating": "4.8",
+//            "description": "More than a boutique hotel, Auberge Saint-Antoine is a window on Québec Citys past. Hundreds of artifacts from both the French and English regimes were discovered during an extensive archaeological dig on the property. In this unique contemporary space, the past has been audaciously re-interpreted for you to savour.The hotel is ideally located in the centre of the city with some stunning views. Room was excellent and the staff provided a first class friendly service. Breakfasts are top quality, served in the atmospheric dining room. Unfortunately we had to rely heavily on the concierge for evenings. Despite calling ahead to confirm and in residence, the restaurant was full on the first evening, second evening closed for a private function and closed on Mondays! Fortunately there is a huge variety of choice around the city. Top tip perhaps confirm well ahead for an evening in Chez Muffy. ",
+//            "price": "230",
+//            "img":"https://i.ibb.co/YhbN260/Suite.jpg" 
+//          },
+//          {
+           
+//            "hotelName": "Fogo Island Inn",
+//            "place": "Joe Batt's Arm",
+//            "rating": "4.85",
+//            "description": "Fogo Island Inn sits on an island, off an island, at one of the four corners of the Earth. Every one of our 29 one-of-a-kind guest rooms and suites has dramatic floor-to-ceiling windows that open onto the wildest and most powerful ocean on the planet. A stimulating relief from the numbing uniformity of modern times, the award-winning Inn is built on the principles of sustainability and respect for nature and culture. The Inn is a community asset, and 100% of operating surpluses are reinvested into the community to help secure a sustainable and resilient future for Fogo Island, Newfoundland. ",
+//            "price": "241",
+//            "img": "https://i.ibb.co/2S51HYw/Interior-ENL-1536x693.jpg" 
+//          },
+//          {
+           
+//            "hotelName": "The Ritz-Carlton",
+//            "place": " Toronto",
+//            "rating": "4.9",
+//            "description": "100 years of history.  With an unshakeable credo and corporate philosophy of un-wavering commitment to service, both in our hotels and in our communities, The Ritz-Carlton has been recognized with numerous awards for being the gold standard of hospitality.In the United States, The Ritz-Carlton Investing Company was established by Albert Keller who bought and franchised the name. In the early 1900s, several hotels were known as The Ritz-Carlton, in places such as Boston, Philadelphia, Pittsburgh, Atlantic City and Boca Raton. However, by 1940 none of the hotels were operating except The Ritz-Carlton, Boston. The hotel embodies the finest luxury experience, Yankee ingenuity and Boston social sensibilities. The standards of service, dining and facilities of this Boston landmark served as a benchmark for all future Ritz-Carlton hotels and resorts worldwide. ",
+//            "price": "300",
+//            "img": "https://i.ibb.co/KF6F9M5/yyzrz-bedroom-50668493.jpg" 
+//          },
+//          {
+           
+//            "hotelName": "Manoir Hovey",
+//            "place": "North Hatley, QC",
+//            "rating": "4.8",
+//            "description": "Many of the first settlers around North Hatley were United Empire Loyalists, mostly farmers, who left New England in the years following the American Declaration of Independence in 1776. Several fine farmhouses of this period still exist in the village. Manoir Hovey was named after one of the most noteworthy of these settlers, Captain Ebenezer Hovey, who was granted a large tract of land by the Crown in 1785, directly across the lake from the inn. In large measure, however, the village owns most of its great houses and particular architecture to the first summer people - aristocrats, captains of industry and large landowners, mostly Americans from south of the Mason-Dixon Line. For some time after the American Civil War (1861-1865) many wealthy southerners renounced New England (Yankeeland) as a summer holiday destination and continued further north into Canada, some by private railway car. Rumour has it that many drew their blinds in passing through New England. ",
+//            "price": "290",
+//            "img": "https://i.ibb.co/hY0gNH6/treetops.jpg"
+//          },
+//          {
+           
+//            "hotelName": "Magnolia Hotel & Spa",
+//            "place": "Victoria, BC",
+//            "rating": "4.75",
+//            "description": "Emanating timeless elegance, The Magnolia Hotel & Spa offers an unrivalled luxury boutique hotel experience in the heart of the city, only steps from Victorias Inner Harbour. Welcome to a world of personalized service, thoughtfully appointed rooms, fine dining, and tranquil spa experiences.Fall is the perfect time to explore the food scene in Victoria!October is BC Craft Beer Month, use our curated Craft Brewery Trail to explore the best local breweries. Or discover the Flavour Trails through Saanich or Cowichan Valley with our themed maps to guide you to farms, wineries, cideries and more! Then return to The Courtney Room to sample Pacific Northwest cuisine showcasing the best local ingredients. ",
+//            "price": "310",
+//            "img": "https://i.ibb.co/k8Vvvm6/Superior-Room-King-Bed.jpg" 
+//          },
+//          {
+           
+//            "hotelName": "Fairmont Chateau Whistler",
+//            "place": "Whistler, BC",
+//            "rating": "4.9",
+//            "description": " Naturally spectacular, Fairmont Chateau Whistler resort delivers an ideal setting for families, meetings and weddings alike. Combining classic elegance and a modern alpine setting, this award-winning Whistler hotel showcases exceptional dining and full resort amenities including a par 72, 18-hole Audubon-certified championship golf course.For up-to-date information on hours of operation, current Provincial Health Orders, available amenities and services, and more, please review our Travel FAQ page.Celebrate the beauty of the surroundings and connect with your wild side this summer in Whistler. Discover the perfect balance of relaxation and adventure, and create memories of a lifetime when you plan a unique mountain getaway at Whistler's landmark ski-in ski-out hotel and BC golf resort, Fairmont Chateau Whistler.    ",
+//            "price": "320",
+//            "img": "https://i.ibb.co/2skwrmT/dd.jpg" 
+//          }
+//        ]
        
- }
+//  }
  
  
  

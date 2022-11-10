@@ -95,8 +95,41 @@ async function run(){
             const result = await hotelcollection.updateOne(query, updatedDoc);
             res.send(result);
         })
+          
+       
+        // Deleting a review
+        app.delete('/reviews/:id', async (req, res) => {
+            const id = req.params.id;
+            const query = { hotelid: id };
+            const result = await reviewCollection.deleteOne(query);
+            res.send(result);
+        })
 
-
+        app.get('/reviews/:id',async(req,res)=>{
+            console.log(req.params);
+            const id =req.params.id;
+            console.log(typeof id,id);
+            const query= {hotelid: id};
+            const review =await reviewCollection.findOne(query);
+            console.log(review);
+            res.send(review)
+        })
+        app.put('/reviews/:id', async (req, res) => {
+            const id = req.params.id;
+            const filter = { hotelid: id };
+            const review = req.body;
+            const option = {upsert: true};
+            const updatedreview = {
+                $set: {
+                    message: review.message,
+                    
+                }
+            }
+            const result = await reviewCollection.updateOne(filter, updatedreview, option);
+            res.send(result);
+        })
+    
+          
 
     }
 
@@ -108,16 +141,6 @@ finally {
 run().catch(error => console.log(error));
 
 
-
-
-
-
-// app.get('/hotels/:id', (req, res) => {
-//     const id =parseInt(req.params.id) ;
-//     const selectedhotelsid = hotels.rooms.find(hotel => hotel.id == id);
-//     console.log(selectedhotelsid);
-//     res.send(selectedhotelsid);
-// });
 app.listen(port, ()=>{
     console.log(`Gulshan Travels is running on port ${port}`);
 })

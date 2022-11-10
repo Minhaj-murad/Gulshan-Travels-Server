@@ -77,6 +77,13 @@ async function run(){
             res.send(result);
         })
 
+        // adding hotels
+        app.post('/hotels', async (req, res) => {
+            const hotel = req.body;
+            const result = await hotelcollection.insertOne(hotel);
+            res.send(result);
+        });
+
 
 
     }
